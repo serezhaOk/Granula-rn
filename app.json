@@ -30,7 +30,7 @@
       },
       "permissions": ["RECORD_AUDIO", "MODIFY_AUDIO_SETTINGS"]
     },
-    "plugins": ["expo-audio", "expo-font"],
+    "plugins": ["expo-audio", "expo-font", "./plugins/withFmtConstevalFix"],
     "experiments": {
       "typedRoutes": false
     }
